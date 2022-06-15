@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.Navbar{
+  color: gold;
+
+}
+.etoile{
+  color: gold;
+}
+img{
+ width: 8rem;
+ border-radius: 5px;
+ 
+ 
+}
+.MovieList{
+  display: inline-flex;
+  margin: 0 1% 1em 1%;
+}
