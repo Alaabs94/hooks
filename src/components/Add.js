@@ -25,9 +25,9 @@ export const Add = ({ movies, setMovies }) => {
     <>
       <SiAddthis onClick={handleShow} className="addbtn" />
       <Modal show={show} onHide={handleClose}>
-        <Modal.Filter closeButton>
+        <Modal.Header closeButton>
           <Modal.Title>Add your movie </Modal.Title>
-        </Modal.Filter>
+        </Modal.Header>
         <Modal.Body>
           <h6>Enter the name</h6>
           <input
